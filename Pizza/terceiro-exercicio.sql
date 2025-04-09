@@ -1,0 +1,10 @@
+CREATE DATABASE pizzasQuadradas;
+
+CREATE TABLE pizza (
+pizza_id SERIAL PRIMARY KEY,
+sabor VARCHAR(30),
+descricao VARCHAR(70) NOT NULL DEFAULT 'MOLHO DE TOMATE, QUEIJO, AZEITONA',
+valor NUMERIC (4,2)
+ );
+
+
